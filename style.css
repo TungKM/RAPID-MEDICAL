@@ -1,0 +1,30 @@
+/* Colors */
+
+:root{
+    --light-color: #fefefe;
+    --orange-color: #F5851F;
+    --yellow-color: #FFFDD0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    width: 1152px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+/* Header */
+
