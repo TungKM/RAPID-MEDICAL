@@ -61,6 +61,20 @@ body {
     position: relative;
 }
 
+a.btn,
+button.btn {
+    background-color: var(--orange-color);
+    color: var(--light-color);
+    border-radius: 24px;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 400ms;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 /* side-btn */
 .side-btn {
     float:none; 
@@ -158,3 +172,39 @@ section h2 {
 
 
 
+/* Contact Us page */
+/* Contact Section */
+.contact-section .contact-content{
+    display:flex;
+    
+}
+
+.customerService {
+    width:500px;
+    height: auto;
+}
+
+input[type="text"],
+textarea {
+    padding: 16px 30px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.11);
+    border-radius: 24px;
+    background: var(--light-color);
+    border: 1px solid var(--dark-color);
+    font-family: "Roboto", sans-serif;
+    flex: 1;
+    margin-bottom: 40px;
+    width:500px;
+}
+
+/* Location */
+
+.location-content {
+    padding: 40px 0px;
+}
+
+/* Get In Touch */
+.get-in-touch img{
+    width: 1000px;
+    height: auto;
+}
