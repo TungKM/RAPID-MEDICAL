@@ -227,3 +227,21 @@ textarea {
 .inquiry h2{
     margin-top: 100px;
 }
+
+.inquiry .questions-content {
+    display: flex;
+    margin-left: 400px;
+}
+
+.questions summary{
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 13px;
+    color:var(--light-color);
+    background-color: var(--orange-color);
+}
+
+summary {
+    font-weight: bold;
+    padding: 15px;
+}
