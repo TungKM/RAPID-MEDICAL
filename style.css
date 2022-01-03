@@ -104,6 +104,10 @@ body {
     margin-bottom: 0.5em;
 }
 
+.hero h2{
+    margin-left:200px;
+}
+
 .hero .btn {
     /* Positioning and sizing */
     display: block;
@@ -124,4 +128,33 @@ body {
     border: 3px solid white; /* CHANGE THIS LINE */
     border-radius: 20px;
 }
+
+/* Main Services Section */
+
+section h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    color: var(--orange-color);
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.services .services-items {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px 18px;
+    margin-bottom: 42px;
+    padding-left: 250px;
+}
+
+.services .services-items img{
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 24px;
+    background: var(--light-color);
+    padding: 20px 25px;
+    margin-top: 0px;
+}
+
+
 
