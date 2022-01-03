@@ -75,6 +75,11 @@ button.btn {
     font-size: 16px;
 }
 
+a.btn:hover {
+    transition: 500ms;
+    transform: scale(1.2);
+}
+
 /* side-btn */
 .side-btn {
     float:none; 
