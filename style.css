@@ -377,3 +377,20 @@ footer a:hover {
 .copyright {
     text-align: center;
 }
+
+
+/* subpages for news */
+/*  */
+
+.article {
+    display: flex;
+    padding: 70px 400px;
+}
+
+.article img{
+    padding: 0px 400px;
+}
+
+.article h3{
+    margin: 15px;
+}
