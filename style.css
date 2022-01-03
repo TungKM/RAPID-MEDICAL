@@ -245,3 +245,18 @@ summary {
     font-weight: bold;
     padding: 15px;
 }
+
+
+
+
+/* News & Events */
+/*  */
+
+.news-content h2{
+    margin-top: 100px;
+}
+
+.imagesNews,
+.imagesNews2 {
+    padding: 40px 450px;
+}
