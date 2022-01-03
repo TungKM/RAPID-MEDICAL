@@ -50,13 +50,13 @@ body {
 }
 
 .header .menu-items li {
-    margin: 0 20px;
+    margin: 0 40px;
 }
 
 .header .menu-items li a {
     text-decoration: none;
     color: var(--light-color);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     position: relative;
 }
