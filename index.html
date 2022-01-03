@@ -11,6 +11,7 @@
         rel="stylesheet"
     />
     
+    <link rel="stylesheet" href="glider.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -68,17 +69,199 @@
         
         <!-- End of Main Services Section -->
 
-        <section class="team-section">
-            <h2>Meet Our Teams</h2>
+        <section id="doctors" class="doctors-section">
+            <div class="wrapper">
+                <h2>Meet Our Team</h2>
 
-            <div class="doctor-container">
-                <div class="doctors">
+                <div class="doctors-container">
+                    <div class="doctors">
+                        <div class="doctor">
+                           <div class="slide-container">
+                               <div class="content">
+                                   <p>
+                                    Qualifications & Certifications
+
+                                    MBBS (UM), MRCP (UK), Fellowship in Interventional Cardiology (Canada), Fellowship in Structural and Adult Congenital Heart Disease Intervention (Canada) 
+                                    </p>
+
+                                    <div class="name">
+                                        <strong>Dr Annamalar Muthu, </strong> Resident Consultant
+                                    </div>
+                               </div>
+                               
+                               <img src="images/Dr-Annamalar-Muthu.jpg" alt="">
+                           </div> 
+                        </div>
+
+                        <div class="doctor">
+                            <div class="slide-container">
+                                <div class="content">
+                                    <p>
+                                        Qualifications & Certifications
+
+                                        MBBS(Mal), MS(UKM), MRCS(Ire)
+                                        
+                                        FELLOWSHIP IN COLORECTAL SURGERY (Hull, England)
+                                     </p>
+ 
+                                     <div class="name">
+                                         <strong>Dr Buvanesvaran Tachina Moorthic, </strong> General Surgery
+                                     </div>
+                                </div>
+                                
+                                <img src="images/Dr-Buvanesvaran-Tachina-Moorthic.jpg" alt="">
+                            </div> 
+                         </div>
+
+
+                         <div class="doctor">
+                            <div class="slide-container">
+                                <div class="content">
+                                    <p>
+                                        Qualifications & Certifications
+
+                                        DSPN, MBBS(Mal), FRCP(Lond), FRCP (Edin), AM
+                                     </p>
+ 
+                                     <div class="name">
+                                         <strong>Dr Chen Tse Peng,</strong> General Medicine
+                                     </div>
+                                </div>
+                                
+                                <img src="images/Dr-Chen-Tse-Peng.jpg" alt="">
+                            </div> 
+                        </div>        
+                        
+                        <div class="doctor">
+                            <div class="slide-container">
+                                <div class="content">
+                                    <p>
+                                        Qualifications & Certifications
+
+                                        MD(UKM), MRCPCH(UK)
+                                        Graduate Diploma in Family Practice Dermatology (NUS)
+                                        </p>
+    
+                                        <div class="name">
+                                            <strong>Dr Chiah Cheun Hui, </strong>Paediatrics
+                                        </div>
+                                </div>
+                                
+                                <img src="images/Dr-Chiah-Cheun-Hui.jpg" alt="">
+                            </div> 
+                        </div>
+                    </div>
                     
+
+                    <span class="slider-prev">
+                        <img src="images/LeftArrow.svg" alt="">
+                    </span>
+
+                    <span class="slider-next">
+                        <img src="images/RightArrow.svg" alt="">
+                    </span>
+                    
+                    <div role="tablist" class="dots-container">
+                        <div class="dots"></div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- End of Team Section -->
-    </div>    
+        <!-- End of doctor section -->
+
+
+        <section id="homeNews" class="home-news-section">
+            <div class="home-news-content">
+                <h2>News & Events</h2>
+
+                <div class="homeNews">
+                    <a href="chronic_pain.html">
+                        <img src="images/News1.svg" alt="">
+                    </a>
+
+                    <a href="long_covid.html">
+                        <img src="images/News2.svg" alt="">
+                    </a>
+
+                    <a href="pneumonia_child.html">
+                        <img src="images/News3.svg" alt="">
+                    </a>
+
+                    <a href="power_of_hug.html">
+                        <img src="images/News4.svg" alt="">
+                    </a>
+            </div>
+        </section>
+
+        <!-- End of homeNews Section -->
+
+        <footer>
+            <div class="wrapper">
+                <div class="footer-container">
+                    <div class="logo">
+                        <img src="images/Logo.svg" alt="">
+                    </div>
+
+                    <div class="footer-nav">
+                        <h3>Our Sevices</h3>
+                        <ul>
+                            <li><a href="#">Covid Test</a></li>
+                            <li><a href="#">Consultation</a></li>
+                            <li><a href="#">Surgery</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-nav">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="/news_and_events.html">News & Events</a></li>
+                            <li><a href="/general_inquiry.html">General Inquiry</a></li>
+                            <li><a href="/contact_us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-nav">
+                        <h3>Get Social</h3>
+
+                        <div class="footer-social">
+                            <a href="#">
+                                <img src="images/FacebookLogo.svg" alt="">
+                            </a>
+
+                            <a href="#">
+                                <img src="images/InstagramLogo.svg" alt="">
+                            </a>
+
+                            <a href="#">
+                                <img src="images/TwitterLogo.svg" alt="">
+                            </a>
+                        </div>
+
+                        <p>rapidmedical@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="copyright">
+                This website was designed by Group 2 &copy; 2022
+            </p>
+        </footer>
+        
+        <!-- End of Footer -->
+    </div>
+    
+    <script src="glider.min.js"></script>
+    
+    <script>
+        new Glider(document.querySelector(".doctors"),{
+            slidesToShow: 1,
+            dots: ".dots",
+            arrows: {
+                prev: ".slider-prev",
+                next: ".slider-next",
+            },
+        });
+    </script>
 </body>
 </html>
