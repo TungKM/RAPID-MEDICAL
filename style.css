@@ -179,6 +179,10 @@ section h2 {
 
 /* Contact Us page */
 /* Contact Section */
+.contact-section h2{
+    margin-top: 80px;
+}
+
 .contact-section .contact-content{
     display:flex;
     
@@ -212,4 +216,14 @@ textarea {
 .get-in-touch img{
     width: 1000px;
     height: auto;
+}
+
+
+
+
+/* General Inquiry page */
+/*  */
+
+.inquiry h2{
+    margin-top: 100px;
 }
